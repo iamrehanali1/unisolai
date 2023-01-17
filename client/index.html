@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div id="preloader"></div>
+
     <div id="app">
       <div id="chat_container"></div>
 
@@ -18,5 +20,14 @@
     </div>
 
     <script type="module" src="script.js"></script>
+
+    <script>
+      var loader = document.getElementById("preloader")
+      
+      window.addEventListener("load", function(){
+        loader.style.display = "none";
+      })
+    </script>
+
   </body>
 </html>

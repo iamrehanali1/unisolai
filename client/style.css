@@ -8,13 +8,13 @@
 }
 
 body {
-  background: #1e788f;
+  background: #45badd;
 }
 
 #app {
   width: 100vw;
   height: 100vh;
-  background: #1b6b80;
+  background: #45badd;
 
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@ body {
 }
 
 .ai {
-  background: #4c94a7;
+  background: #80cbe2;
 }
 
 .chat {
@@ -89,7 +89,7 @@ body {
 .message {
   flex: 1;
 
-  color: #dcdcdc;
+  color: #fafafa;
   font-size: 20px;
 
   max-width: 100%;
@@ -117,7 +117,7 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
-  background: #003b49;
+  background: #00455a;
 
   display: flex;
   flex-direction: row;
@@ -147,4 +147,13 @@ button {
 form img {
   width: 30px;
   height: 30px;
+}
+
+#preloader{
+  background: #45badd url(assets/robot.gif) no-repeat center center;
+  background-size: 30%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }
